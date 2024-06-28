@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+header h1{
+    padding-top: 30px;
+}
+
+table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+tr th{
+    /* margin: 10px; */
+    padding: 20px;
+    border: 1px solid #000;
+    /* background-color: blue; */
+    text-wrap: wrap;
+}
+
+tr td{
+    /* margin: 10px; */
+    padding: 20px;
+    border: 1px solid #000;
+    /* background-color: blue; */
+    text-wrap: wrap;
+}

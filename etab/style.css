@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+header h1{
+    padding-top: 30px;
+}
+
+/* section etabl */
+
+.etab{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: gainsboro;
+    min-height: 350px;
+    min-width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000 ;
+}
+
+.input{
+    display:flex ;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+
+.input input{
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.num{
+    display: flex;
+}
+
+.button{
+    width: 93%;
+    margin-top: 20px;
+    padding: 4px;
+    background-color: blue;
+    color: #fff;
+}

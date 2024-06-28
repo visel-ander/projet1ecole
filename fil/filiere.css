@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+header h1{
+    padding-top: 30px;
+}
+
+.filiere{
+    background-color: gainsboro;
+    width: 350px;
+    position: relative;
+    top: 100px;
+    left: 35%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000 ;
+}
+
+.filiere label{
+    margin-right: 8px;
+}
+
+.filiere input{
+    border-radius: 5px;
+    padding: 4px;
+}
